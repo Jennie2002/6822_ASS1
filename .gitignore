@@ -1,0 +1,9 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.streamlit/
+*.log
+.pytest_cache/
+.mypy_cache/

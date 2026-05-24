@@ -1,0 +1,4 @@
+model_id,model_type,role,complexity_level,explainability_risk,deployment_gate,artifact_path,training_dataset,training_seed,sklearn_version
+logistic_regression,Logistic Regression,Traditional scorecard baseline,Low,Low,Standard model validation and monitoring,input\model_artifacts\logistic_regression.pkl,input/datasets/processed/combined_credit_dataset.csv,42,1.8.0
+xgboost,XGBoost,Challenger machine learning model,Medium,Medium,Conditional approval pending challenger validation and explanation review,input\model_artifacts\xgboost.pkl,input/datasets/processed/combined_credit_dataset.csv,42,1.8.0
+fnn,FNN,High-complexity AI model,High,High,Restricted pending enhanced review,input\model_artifacts\fnn.pkl,input/datasets/processed/combined_credit_dataset.csv,42,1.8.0

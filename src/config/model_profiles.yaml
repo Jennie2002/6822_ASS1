@@ -1,0 +1,26 @@
+Logistic Regression:
+  role: Traditional scorecard baseline
+  lifecycle_status: Current production model benchmark
+  complexity_level: Low
+  explainability_confidence: High
+  explainability_risk: Low
+  deployment_gate: Standard model validation and monitoring
+  governance_implication: Transparent baseline model with lower explainability burden, but still subject to validation and fairness monitoring.
+
+XGBoost:
+  role: Challenger machine learning model
+  lifecycle_status: New proposed challenger model
+  complexity_level: Medium
+  explainability_confidence: Medium
+  explainability_risk: Medium
+  deployment_gate: Conditional approval pending challenger validation and explanation review
+  governance_implication: Stronger predictive challenger model requiring SHAP or LIME review and closer validation before deployment.
+
+FNN:
+  role: High-complexity AI model
+  lifecycle_status: Black-box proposed model
+  complexity_level: High
+  explainability_confidence: Low
+  explainability_risk: High
+  deployment_gate: Restricted pending enhanced review
+  governance_implication: Higher opacity model requiring enhanced explainability evidence, human oversight, and stronger governance sign-off.

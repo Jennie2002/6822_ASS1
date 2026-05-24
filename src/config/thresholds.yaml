@@ -1,0 +1,14 @@
+approval_disparity_threshold: 0.10
+fpr_disparity_threshold: 0.10
+fnr_disparity_threshold: 0.10
+severe_disparity_multiplier: 1.50
+high_manual_review_rate: 0.25
+monitor_manual_review_rate: 0.10
+high_rejection_rate: 0.20
+high_risk_rejection_rate: 0.10
+drift_warning_score: 0.50
+drift_monitor_score: 0.25
+bias_warning_action: Governance warning
+severe_bias_action: Model risk escalation
+low_explainability_action: Enhanced explainability review
+high_risk_rejection_action: Human review recommendation

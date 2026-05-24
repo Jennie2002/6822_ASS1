@@ -1,0 +1,16 @@
+code: US
+name: United States
+engine: US fair-lending risk engine
+rule_profile: US fair lending and adverse action governance profile
+rule_version: 2026-05
+fairness_method: Fair-lending monitoring with optional BISG-style proxy analysis
+adverse_action_required: true
+disparate_impact_review: Governance monitoring / litigation risk review
+bisg_policy: BISG-style proxy estimation may be used for aggregate fair-lending monitoring when surname and geography reference data are available. It must not be used for individual credit decisions.
+report_focus: CFPB-style fair lending, adverse action explanation, governance monitoring, litigation and reputational risk
+required_controls:
+  - Fair-lending monitoring
+  - Adverse action explanation
+  - Disparate impact review
+  - Model risk record
+  - Human review for adverse or borderline cases

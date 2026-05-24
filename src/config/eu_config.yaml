@@ -1,0 +1,16 @@
+code: EU
+name: European Union
+engine: EU high-risk AI compliance engine
+rule_profile: EU AI Act high-risk credit scoring governance profile
+rule_version: 2026-05
+high_risk_ai: true
+ai_act_category: creditworthiness_assessment
+fairness_method: Documented bias testing using available declared or observed groups
+bisg_policy: BISG-style inferred race estimation is not used in the EU configuration. The EU engine emphasises documented bias testing, transparency, data minimisation, explainability, and human oversight.
+report_focus: EU AI Act high-risk AI controls, bias testing, explainability evidence, human oversight
+required_controls:
+  - Mandatory bias testing
+  - Explainability evidence review
+  - Human oversight
+  - Risk management system
+  - Model audit trail
