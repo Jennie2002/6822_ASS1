@@ -125,6 +125,8 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+The dependency versions are pinned for reproducibility with the included fixed dataset and model artifacts.
+
 Run the governance dashboard for the EU:
 
 ```bash

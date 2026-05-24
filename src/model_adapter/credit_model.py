@@ -137,7 +137,7 @@ def load_registered_model(model_type: str) -> object:
     matches = manifest[manifest["model_type"] == model_type]
     if matches.empty:
         raise ValueError(f"Model artifact is not registered: {model_type}")
-    artifact_path = Path(matches.iloc[0]["artifact_path"])
+    artifact_path = Path(str(matches.iloc[0]["artifact_path"]).replace("\\", "/"))
     return load_model_artifact(artifact_path)
 
 

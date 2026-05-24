@@ -43,7 +43,7 @@ def build_model_artifacts(seed: int = DEFAULT_RANDOM_SEED) -> pd.DataFrame:
                 "complexity_level": profile["complexity_level"],
                 "explainability_risk": profile["explainability_risk"],
                 "deployment_gate": profile["deployment_gate"],
-                "artifact_path": str(artifact_path),
+                "artifact_path": artifact_path.as_posix(),
                 "training_dataset": "input/datasets/processed/combined_credit_dataset.csv",
                 "training_seed": seed,
                 "sklearn_version": sklearn.__version__,
